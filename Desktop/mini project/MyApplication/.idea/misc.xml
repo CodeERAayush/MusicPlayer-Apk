@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/AAYUSH PANDEY/Desktop/Android Projects/MyApplication/app/src/main/res/drawable/ic_baseline_pause_circle_filled_24.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/AAYUSH PANDEY/Desktop/Android Projects/MyApplication/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/AAYUSH PANDEY/Desktop/Android Projects/MyApplication/app/src/main/res/drawable/ic_baseline_play_circle_filled_24.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/AAYUSH PANDEY/Desktop/Android Projects/MyApplication/app/src/main/res/drawable/ic_baseline_skip_next_24.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/AAYUSH PANDEY/Desktop/Android Projects/MyApplication/app/src/main/res/drawable/ic_baseline_skip_previous_24.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/AAYUSH PANDEY/Desktop/Android Projects/MyApplication/app/src/main/res/drawable/ic_mu.xml" value="0.1" />
+        <entry key="..\:/Users/AAYUSH PANDEY/Desktop/Android Projects/MyApplication/app/src/main/res/drawable/imusic_icon.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/AAYUSH PANDEY/Desktop/Android Projects/MyApplication/app/src/main/res/drawable/list_bg.xml" value="0.2128205128205128" />
+        <entry key="..\:/Users/AAYUSH PANDEY/Desktop/Android Projects/MyApplication/app/src/main/res/drawable/list_item.xml" value="0.2128205128205128" />
+        <entry key="..\:/Users/AAYUSH PANDEY/Desktop/Android Projects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.184375" />
+        <entry key="..\:/Users/AAYUSH PANDEY/Desktop/Android Projects/MyApplication/app/src/main/res/layout/activity_player.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/AAYUSH PANDEY/Desktop/Android Projects/MyApplication/app/src/main/res/layout/list_item.xml" value="0.12" />
+        <entry key="..\:/Users/AAYUSH PANDEY/Desktop/Android Projects/MyApplication/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.20052083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
