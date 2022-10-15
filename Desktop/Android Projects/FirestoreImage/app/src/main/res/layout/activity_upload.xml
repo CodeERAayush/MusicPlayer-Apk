@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UploadActivity"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/GhatText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Title "
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/ghatNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/GhatText"
+            android:hint="Enter a suitable title"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/GhatAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/GhatText"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Caption :"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/GhatText"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/GhatAdmin"
+            android:hint="Enter Caption"
+            android:padding="5dp" />
+
+
+        <ImageView
+            android:id="@+id/uploadedImg"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@+id/GhatAdmin"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:src="@drawable/coolskull" />
+
+        <TextView
+            android:id="@+id/up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/uploadedImg"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="upload :"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/getUploadImagename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/uploadedImg"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@+id/up"
+            android:padding="5dp"
+            android:text="        Image name       " />
+
+        <Button
+            android:id="@+id/chooseImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/uploadedImg"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toEndOf="@+id/getUploadImagename"
+            android:background="@drawable/button_border"
+            android:backgroundTint="@color/white"
+            android:padding="5dp"
+            android:text="Choose Image"
+            android:textColor="@color/secondary" />
+
+        <Button
+            android:id="@+id/mUpload"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/chooseImg"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/button_border"
+            android:padding="2dp"
+            android:text="Upload"
+            android:textColor="@color/secondary" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="6dp"
+            android:background="@drawable/toolbar_design"
+            android:padding="5dp">
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="60dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:src="@drawable/coolskull"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="2dp" />
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+    </LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navBar"
+        android:layout_width="288dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/menu"
+        app:headerLayout="@layout/header"
+        >
+
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>
